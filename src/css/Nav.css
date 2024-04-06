@@ -1,0 +1,47 @@
+.logo {
+  width: 100px;
+}
+.logo_user {
+  width: 40px;
+}
+nav {
+  background-color: #e48f45;
+ 
+}
+nav.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+.navbar-collapse ul {
+  width: 100%;
+  text-align: center;
+  /* direction: ltr; */
+}
+.navbar-collapse ul li .nav-link {
+  color: black;
+}
+.navbar-collapse ul li .nav-link.active {
+  color: black;
+}
+.cart-link {
+  font-size: 18px;
+  padding: 0px 11px;
+}
+.cart-link i {
+  color: #fff;
+}
+.cart-link .fa-heart {
+  color: red;
+}
+nav .Cart-price {
+  position: relative;
+}
+nav .Cart-price span {
+  position: absolute;
+  color: red;
+  top: -17px;
+  left: 16px;
+  font-size: 15px;
+  font-weight: 600;
+}

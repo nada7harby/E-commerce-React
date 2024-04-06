@@ -1,0 +1,18 @@
+.img_prod {
+  position: relative;
+}
+.img_prod img {
+  height: 300px;
+}
+.img_prod span {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+}
+.img_prod span i{
+color:white;
+font-size: 20px;
+}
+.app{
+  padding-top: 80px;
+}
